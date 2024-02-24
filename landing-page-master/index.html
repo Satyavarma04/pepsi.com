@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PEPSI WEBSITE LANDING PAGE</title>
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .logo{
+      width: 200px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <section class="sec">
+    <header>
+      <a href="#"><img src="https://preview.redd.it/emblem-request-pepsi-logo-pc-v0-5jkcdqhfwfob1.png?width=2600&format=png&auto=webp&s=5a083edb45db82c4e530ff9d8aa7e2c3c0ecf751" alt="PEPSI" class="logo"> </a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Whats New</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+      <h2>That's Whats<br><span>I like</span></h2>
+      <p>Welcome to the world of Pepsi, where every sip is a celebration of flavor and fun.</p>
+      <a href="#">View All Products</a>
+    </div>
+    <div class="imgbox">
+      <img src="images/pepsi001.png" class="pepsi"> 
+    </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="images/pepsi001.png" onclick="imgSlider('images/pepsi001.png');changeBgcolor('#0062be')"></li>
+      <li><img src="images/pepsi002.png" onclick="imgSlider('images/pepsi002.png');changeBgcolor('#a7a6a6')"></li>
+      <li><img src="images/pepsi003.png" onclick="imgSlider('images/pepsi003.png');changeBgcolor('#1e1e1e')"></li>
+    </ul>
+    <ul class="sci">
+      <li><a href="#"><img src="images/facebook.png"></a></li>
+      <li><a href="#"><img src="images/twitter.png"></a></li>
+      <li><a hreft="#"><img src="images/instagram.png"></a></li>
+    </ul>
+  </section>
+  <script type="text/javascript">
+    function imgSlider(anything){
+      document.querySelector('.pepsi').src = anything;
+    }
+    function changeBgcolor(color) {
+      const sec = document.querySelector('.sec');
+      sec.style.background = color;
+    }
+  </script>
+  <div class="textbox2">
+    <h1>PEPSI</h1>
+  </div>
+  <section2>
+    <div class="other__video">
+      <video controls="" controlslist="nodownload noremoteplayback" class="other__video" kind="captions" type="video/mp4" src="https://www.pepsi.com/en-us/refresh082123/media/Titan_TR_Digital_30_PETD3091000H_CreativeX_sm.mp4" poster="https://www.pepsi.com/en-us/refresh082123/media/titan_vid.png" autoplay="true" loop="true" playsinline="true" muted="true"></video>
+    </div>
+  </section2>
+  <div class="textbox3">
+    <h1>STAY ON THE PULSE. FOLLOW PEPSI.</h1>
+  </div>
+  <footer class="main-footer text-center">
+    <div class="container">
+      <div class="footer-top flex">
+        <img src="https://logos-world.net/wp-content/uploads/2020/10/Pepsi-Cola-Logo-1962.png" alt="logo Pepsi" class="logo">
+      </div>
+        <div>
+          <p>2024 PEPSI. All Rights Reserved. </p>
+          <a href="#">Privacy</a>
+          <a href="#">Terms of Use </a>
+          <a href="#">Do Not Sell My Personal Information</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'chivo', sans-serif;
+}
+section
+{position: relative;
+width: 100%;
+min-height: 100vh;
+padding:100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #0062be;
+transition: 0.5s;
+}
+header
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li 
+{
+    list-style: none;
+}
+header ul li a 
+{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox
+{
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h2
+{
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textbox h2 span
+{
+    font-size: 2em;
+}
+.content .textbox p
+{
+    color: #fff;
+    font-size: 120%;
+}
+.content .textbox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content .imgbox
+{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
+    
+}
+.content .imgbox img
+{
+    max-width: 260px;
+}
+.thumb
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover
+{
+    transform: translateY(-15px);
+}
+.thumb li img
+{
+    max-width: 40px;
+}
+.sci 
+{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li 
+{
+    list-style: none;
+}
+.sci li a 
+{
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+.textbox2{
+    color: #0062be;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0062be;
+}
+.textbox2 h1{
+    font-size: 200px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 5px #fff;
+    background: url(./images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.other__video{
+    width:100%;
+    height: 100%;
+    object-fit: cover !important;
+}
+*{
+    box-sizing: border-box;
+}
+video{
+    overflow-clip-margin: content-box;
+    overflow: border-box;
+}
+.section2{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.5s;   
+}
+.social__title h2{
+    font-size: 42px;
+    padding: 1rem 0;
+    font-weight: 400;
+    margin:0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    justify-content: center;
+}
+.main-footer {
+    background: #0062be;
+    color: #fff;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	line-height: 1.4;
+}
+
+.text-center {
+    text-align: center;
+}
+.footer {
+    display: block;
+}
+.main-footer a {
+    color: #111;
+}
+.textbox3{
+    color: #111;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    background-color: #0062be;
+}
+.textbox3 h1{
+    font-size: 50px;
+    line-height: 100px;
+    margin-left: 300px;
+}
+
